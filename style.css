@@ -1,0 +1,315 @@
+
+/*  Fonts Google 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body{
+	font-family: "Montserrat", sans-serif;
+	color: #111;
+	background-color: #fff;
+	margin: 2rem 15vw 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{	list-style: none;}
+
+
+/* # Header */
+header{
+
+}
+header h1{
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 43px;
+	line-height: 64px;
+	margin-bottom: .6rem
+}
+header .text{
+	display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+header .text .dots{
+	width: 37px;
+    margin-top: 5px;
+    align-self: start;
+}
+header .text p{
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-style: italic;
+	color: #4F4F4F;
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 1.3rem;
+    margin-left: 12px;
+}
+header .cheesecake{
+	width: 100%;
+	height: auto;
+}
+
+/* # Main */
+main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+main .recipe  h4{
+	font-family: "Play Display", serif;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 500;
+	font-style: normal;
+        padding-bottom: .7rem;
+
+}
+main .recipe p{
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+	font-style: normal;
+	color: #444;
+    margin-bottom: .5rem;
+}
+
+main .recipe .instructions,
+main .recipe .ingredients {
+	margin-top: 2rem;
+	margin-bottom: 1.3rem
+}
+
+/* ## ingredients */
+main .recipe .ingredients{
+	
+}
+
+main .recipe .ingredients h6{
+	font-family: "Play Display", serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	font-style: italic;
+    padding-bottom: .3rem;
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+main .recipe .ingredients input{
+	width: 18px;
+    height: 18px;
+    margin-right: .9rem;
+}
+
+
+main .recipe .ingredients{
+	margin-bottom: 1.3rem;
+	margin-right: 1rem;
+}
+
+
+
+/* ## instructions */
+
+
+main .recipe .instructions .instr-row, .ingr-row{
+/*	display: flex;
+	flex-direction: row;
+	margin-top: .9rem;
+*/
+
+	display: grid;
+    grid-template-columns: 19px auto;
+    grid-gap: 12px;
+    margin-top: 7px;
+    margin-top: 7px;
+}
+
+
+main .recipe .instructions p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 1.3rem;
+}
+
+main .recipe .instructions span{
+	font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #f2994a;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    padding: 0 12px;
+    margin-right: .9rem;
+}
+
+
+
+
+/*  aside */
+aside .informations{
+    width: 12rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+    padding: 2.7rem 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+aside .informations .yields.row, 
+aside .informations .times .row{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+aside .informations .icon{
+	color: #4F4F4F;
+	font-size: 1.67rem;
+	margin-right: .4rem;
+}
+aside .informations h6{
+	color: #BDBDBD;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-bottom: .12rem;
+}
+aside .informations  p{
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 600;
+	padding-bottom: .35rem;
+}
+
+aside .informations  .yields {
+	margin-bottom: 2rem;
+}
+
+aside .yields p,
+aside .yields .icon{
+	color: #F2994A;
+}
+aside .informations .prep,
+aside .informations .cook,
+aside .informations .total  {
+	margin-bottom: 2rem;
+}
+
+aside .informations  .times .total {
+	margin-bottom: 0;
+}
+
+/* Source */
+.source {
+	margin-top: 20px;
+}
+.source a {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+	text-decoration: none;
+	line-height: 150%;
+	color: #bdbdbd
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  padding: 13px;
+  width: 100%;
+}
+footer{
+	text-align: center;
+    width: 100%;
+    padding: 29px 0;
+    margin-top: 2rem;
+}
+footer p{
+  color: #555;
+}
+footer a{
+  color: #000;
+  text-decoration: underline;
+}
+footer a abbr{
+  text-decoration: none;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 973px){
+	header h1{
+		font-size: 27px;
+		line-height: 32px
+	}
+	main .recipe p {
+    font-size: 14px;
+	}
+	aside .informations h6 {
+	    font-size: 8px;
+	    line-height: 10px;
+	}
+
+    aside .informations p {
+	    font-size: 10px;
+	    line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+	main{
+		flex-direction: column;
+	}
+
+	main aside{
+		order: -1
+	}
+
+	aside .informations {
+	    width: auto;
+	    margin: 0;  
+		margin-top: 2rem;
+	    box-shadow: none;
+	    padding: 0;
+	}
+
+	aside .informations .times div{
+		margin-bottom: 0
+	}
+
+	aside .times{
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.source a {
+	 font-size: 12px;
+	}
+
+}
+
+
+
+
+
+
