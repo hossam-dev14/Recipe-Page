@@ -88,7 +88,6 @@ $ npm start
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Gmail [hossam-dev14](mailto:hossamdev14@gmail.com)
+- Website [hossam-dev14](https://hossam-dev14.github.io/)
+- Twitter [@hossam-dev](https://twitter.com/hossam-dev)
